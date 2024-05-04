@@ -1,4 +1,7 @@
 {
     "userspace_version": "1.0",
-    "build_targets": []
+    "build_targets": [
+        ["kbdfans/kbd67/mkiirgb/v3", "cskeeters"],
+        ["pizzakeyboards/slice65", "cskeeters"]
+    ]
 }
