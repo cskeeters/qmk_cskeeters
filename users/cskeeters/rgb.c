@@ -132,6 +132,7 @@ void rgb_numpad(void) {
 
     rgb_matrix_set_color(LED_INDEX(TAB),  AUX_COLOR);
     rgb_matrix_set_color(LED_INDEX(CAP),  AUX_COLOR);
+    rgb_matrix_set_color(LED_INDEX(BSP),  AUX_COLOR);
 
     rgb_matrix_set_color(LED_INDEX(ENT),  AUX_COLOR);
 
