@@ -9,7 +9,8 @@ Register *register_head = NULL;
 char kb_register_next_keycode;
 
 // This is where we write register data until F message is received
-char kb_register_buffer[KB_REGISTER_BUFFER_MAX];
+// Initializing with a 1 ensures buffer is added to the initialized data segment and counted towards the size of the image
+char kb_register_buffer[KB_REGISTER_BUFFER_MAX] = {1, 0};
 int  kb_register_buffer_offset;
 
 int rgui_pressed = 0; // true or false depending on if RGUI is pressed
