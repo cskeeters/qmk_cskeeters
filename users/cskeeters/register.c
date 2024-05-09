@@ -215,6 +215,7 @@ void raw_hid_receive(uint8_t *data, uint8_t length)
             node = init_new_register();
             if (node == NULL) {
                 send_raw_hid_response("Out of Memory", length);
+                free(data);
                 return;
             }
         } else {
