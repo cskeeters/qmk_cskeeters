@@ -102,6 +102,10 @@ uint8_t mod_config(uint8_t mod) {
 bool process_record_user(uint16_t keycode, keyrecord_t *record)
 {
 
+#ifdef CONSOLE_ENABLE
+    dprintf("KL: kc: 0x%04X, col: %2u, row: %2u, pressed: %u, time: %5u, int: %u, count: %u\n", keycode, record->event.key.col, record->event.key.row, record->event.pressed, record->event.time, record->tap.interrupted, record->tap.count);
+#endif
+
 #ifdef REGISTER_ENABLE
     if (register_handle_event(keycode, record)) {
         return false;
