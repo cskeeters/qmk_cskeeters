@@ -13,7 +13,7 @@
 #define BASE_EQ   KC_EQUAL // and plus
 #define BASE_BSP  KC_BACKSPACE
 
-#define BASE_TAB  KC_TAB
+#define BASE_TAB  LT(NUMPAD_LAYER, KC_TAB)
 #define BASE_Q    KC_Q
 #define BASE_W    KC_W
 #define BASE_E    KC_E
