@@ -22,9 +22,9 @@
 #define NUMPAD_R    KC_NO
 #define NUMPAD_T    KC_NO
 #define NUMPAD_Y    KC_NO
-#define NUMPAD_U    KC_KP_7
-#define NUMPAD_I    KC_KP_8
-#define NUMPAD_O    KC_KP_9
+#define NUMPAD_U    KC_7
+#define NUMPAD_I    KC_8
+#define NUMPAD_O    KC_9
 #define NUMPAD_P    KC_KP_PLUS
 #define NUMPAD_LB   KC_NO
 #define NUMPAD_RB   KC_NO
@@ -37,32 +37,32 @@
 #define NUMPAD_F    KC_NO
 #define NUMPAD_G    KC_NO
 #define NUMPAD_H    KC_NO
-#define NUMPAD_J    KC_KP_4
-#define NUMPAD_K    KC_KP_5
-#define NUMPAD_L    KC_KP_6
+#define NUMPAD_J    KC_4
+#define NUMPAD_K    KC_5
+#define NUMPAD_L    KC_6
 #define NUMPAD_SC   KC_KP_PLUS
 #define NUMPAD_QT   KC_EQUAL
 #define NUMPAD_ENT  KC_ENTER
 
-#define NUMPAD_LSH  KC_NO
+#define NUMPAD_LSH  KC_LSFT
 #define NUMPAD_Z    KC_NO
 #define NUMPAD_X    KC_NO
 #define NUMPAD_C    KC_NO
 #define NUMPAD_V    KC_NO
 #define NUMPAD_B    KC_NO
 #define NUMPAD_N    KC_NO
-#define NUMPAD_M    KC_KP_1
-#define NUMPAD_CM   KC_KP_2
-#define NUMPAD_DT   KC_KP_3
-#define NUMPAD_SL   KC_KP_ENTER
+#define NUMPAD_M    KC_1
+#define NUMPAD_CM   KC_2
+#define NUMPAD_DT   KC_3
+#define NUMPAD_SL   KC_ENTER
 #define NUMPAD_RSH  KC_NO
 
 #define NUMPAD_LCTL KC_LEFT_CTRL // for delete word
 #define NUMPAD_LGUI KC_NO
 #define NUMPAD_LALT KC_NO
-#define NUMPAD_SP   KC_KP_0
-#define NUMPAD_RALT KC_KP_DOT
-#define NUMPAD_RCTL KC_KP_ENTER
+#define NUMPAD_SP   KC_0
+#define NUMPAD_RALT KC_DOT
+#define NUMPAD_RCTL KC_ENTER
 
 #define NUMPAD_AUP  KC_TRANSPARENT
 #define NUMPAD_AL   KC_TRANSPARENT
