@@ -17,7 +17,7 @@
 #define CONTROL_BSP  KC_DELETE
 
 #define CONTROL_TAB  KC_NO
-#define CONTROL_Q    RGB_TOG
+#define CONTROL_Q    RM_TOGG // RGB MATRIX TOGGLE (ALL)
 #define CONTROL_W    KC_NO
 #define CONTROL_E    KC_MEDIA_EJECT
 #define CONTROL_R    KC_NO
